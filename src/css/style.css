@@ -1,0 +1,68 @@
+.login-page-wrapp {
+  height: 100vh;
+}
+
+body .login-page-wrapp .login-form-wrap{
+  width: 50%;
+  height: 100vh;
+  padding: 50px;
+}
+
+.login-page-wrapp .login-form-wrap .col .tabs .indicator{
+  background-color: #1565c0;
+}
+
+.login-page-wrapp .login-form-wrap .col .tabs .tab a:focus, .tabs .tab a:focus.active{
+  background: #e0f2f1 ;
+}
+
+.login-form-wrap .form-card {
+  max-width: 600px;
+  width: 100%;
+}
+
+.login-page-wrapp .login-form-wrap .col .form-card {
+  margin: 27% auto 0px auto;
+}
+
+.login-page-wrapp .login-form-wrap .col .signUp-card {
+  margin: 30px auto 0px auto;
+  max-width: 600px;
+}
+
+.login-page-wrapp .login-form-wrap .col .signUp-card .card-content .regInput{
+  margin-bottom: 0px;
+}
+
+.login-form-wrap .form-card .card-title {
+  color: gray;
+}
+
+.login-form-wrap .signUp-card .card-title {
+  color: gray;
+}
+
+.login-greeting-screen {
+  background: #4db6ac;
+  width: 50%;
+  padding: 20px;
+  height: 100vh;
+  padding: 15px;
+}
+
+.login-greeting-screen .login-greeting-screen-text {
+  max-width: 500px;
+}
+
+.login-greeting-screen .login-greeting-screen-text {
+  color: white;
+}
+
+.login-greeting-screen .login-greeting-screen-title {
+  margin-bottom: 30px;
+  text-transform: capitalize;
+}
+
+.login-greeting-screen .login-greeting-screen-description {
+  line-height: 1.4;
+}

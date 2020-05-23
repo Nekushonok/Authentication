@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="login-page-wrapp row">
+      <div class="login-form-wrap align-items-center col s6">
+        <div class='col s12'>
+          <ul class="tabs">
+            <li class="tab col s6 "><a href="#logIn" class='active light-blue-text text-darken-4'>Log In</a></li>
+            <li class="tab col s6"><a class="light-blue-text text-darken-4" href="#signUp">Sign Up</a></li>
+          </ul>
+        </div>
+        <div id="logIn" class="col s12 indigo-text text-darken-4">
+          <div class="form-card card s12">
+            <div class="card-content">
+              <h4 class="card-title">Please Login</h4>
+              <form name="loginForm">
+                <div class="form-group">
+                  <label for="email">Email address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="email"
+                    aria-describedby="emailHelp"
+                    placeholder="Enter email"
+                    data-required="email"
+                    data-invalid-message="Please provide valid email example@example.com"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="password">Password</label>
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="password"
+                    placeholder="Password"
+                    data-required="password"
+                  />
+                </div>
+                <button type="submit" class="btn waves-effect waves-light">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div id="signUp" class="col s12 indigo-text text-darken-4">
+          <div class="signUp-card card s12">
+            <div class="card-content">
+              <h4 class="card-title">Please Sign Up</h4>
+              <form name='signUpForm'>
+                <div class="row regInput">
+                  <div class="input-field col s6">
+                    <input id="first_name" type="text" class="validate">
+                    <label for="first_name">First Name</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <input id="last_name" type="text" class="validate">
+                    <label for="last_name">Last Name</label>
+                  </div>
+                </div>
+                <div class="row regInput">
+                  <div class="col s4">
+                    Gender orientation:
+                  </div>
+                  <div class="col s4">
+                    <label>
+                      <input type="radio" name="group1" id='male'/>
+                      <span>Male</span>
+                    </label>
+                  </div>
+                  <div class="col s4">
+                    <label>
+                      <input type="radio" name="group1" id='female'/>
+                      <span>Female</span>
+                    </label>
+                  </div>
+                </div>
+                <div class="row regInput">
+                  <div class="input-field col s12">
+                    <input id="nickname" type="text" class="validate">
+                    <label for="nickname">Nickname</label>
+                  </div>
+                </div>
+                <div class="row regInput">
+                  <div class="input-field col s12">
+                    <input id="emailReg" type="email" class="validate" data-required="email">
+                    <label for="emailReg">Email</label>
+                  </div>
+                </div>
+                <div class="row regInput">
+                  <div class="input-field col s12">
+                    <input id="passwordReg" type="password" class="validate" data-required="password">
+                    <label for="passwordReg">Password</label>
+                  </div>
+                </div>
+                <div class="row regInput">
+                  <div class="input-field col s12">
+                    <input id="phone" type="number" class="validate">
+                    <label for="phone">Phone number</label>
+                  </div>
+                </div>
+                <div class="row regInput">
+                  <div class="input-field col s12">
+                    <input id='birthdate' type="text" class="datepicker">
+                    <label for="birthdate">Birthdate</label>
+                  </div>
+                </div>
+                <div class="row regInput">
+                  <div class="col s12">
+                    <div class="row">
+                      <div class="input-field col s6">
+                        <input type="text" id="country-input" class="autocomplete">
+                        <label for="country-input">Country</label>
+                      </div>
+                      <div class="input-field col s6">
+                        <input disabled type="text" id="city-input" class="autocomplete">
+                        <label for="city-input">City</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <button type="submit" class="btn waves-effect waves-light">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>     
+      <!-- /.login-form-wrap -->
+      <div class="login-greeting-screen align-items-center col s6 valign-wrapper">
+        <div class="login-greeting-screen-text ">
+          <h1 class="login-greeting-screen-title">Welcome to my app</h1>
+          <p class="login-greeting-screen-description">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
+            inventore non accusantium earum, illo dolores reprehenderit laborum
+            ratione quos doloribus repellat eligendi deleniti. Ipsum voluptate
+            ipsa exercitationem eaque totam. A.
+          </p>
+        </div>
+      </div>
+      <!-- /.login-greeting-screen -->
+    </div>
+    <!-- /.login-page-wrapp -->
+  </body>
+</html>
